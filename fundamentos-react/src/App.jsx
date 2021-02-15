@@ -22,6 +22,18 @@ export default () => (
     <div className="App">
         <h1>Fundamentos React</h1>
 
+        {/* 
+        Desafio surpresinha mega sena
+        gerarNumeros(qtde) { [1, ... , qtde] } de 1 ateh 60
+        input pra pedir a qtde de numeros e um botao pra iniciar o processo
+        componente Mega dentro da pasta mega
+        
+        <div className="Cards">
+            <Card titulo="#12 - Contador" color="#75EB00">
+                <Contador numeroInicial={10}></Contador>
+            </Card>
+        </div> */}
+
         <div className="Cards">
             <Card titulo="#12 - Contador" color="#75EB00">
                 <Contador numeroInicial={10}></Contador>
