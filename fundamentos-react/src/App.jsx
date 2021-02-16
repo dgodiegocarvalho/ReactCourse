@@ -17,6 +17,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from './components/comunicacao/IndiretaPai.jsx'
 import Input from './components/formulario/Input.jsx'
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 export default () => (
     <div className="App">
@@ -26,13 +27,13 @@ export default () => (
         Desafio surpresinha mega sena
         gerarNumeros(qtde) { [1, ... , qtde] } de 1 ateh 60
         input pra pedir a qtde de numeros e um botao pra iniciar o processo
-        componente Mega dentro da pasta mega
+        componente Mega dentro da pasta mega */}
         
         <div className="Cards">
-            <Card titulo="#12 - Contador" color="#75EB00">
-                <Contador numeroInicial={10}></Contador>
+            <Card titulo="#13 - Desafio Surpresinha da Mega" color="#1FDA9A">
+                <Mega qtde={6}></Mega>
             </Card>
-        </div> */}
+        </div> 
 
         <div className="Cards">
             <Card titulo="#12 - Contador" color="#75EB00">
